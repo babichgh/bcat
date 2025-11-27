@@ -1,12 +1,12 @@
-# cat
+# bcat
 Helps to quickly see file content or write something down on it
 ## Prerequisites
 - g++ compiler
 ## Installation
 1. Clone the repository
    ```
-   git clone https://github.com/babichgh/cat.git
-   cd cat
+   git clone https://github.com/babichgh/bcat.git
+   cd bcat
    ```
 2. Compile
    ```
@@ -14,7 +14,9 @@ Helps to quickly see file content or write something down on it
    ```
 3. Run
    ```
-   ./cat --read/--write [path/to/your/file]
+   ./bcat --read/--write [path/to/your/file]
+   ```
+   or
    ```
    make run --read/--write [path/to/your/file]
    ```
@@ -26,4 +28,4 @@ cat/
 ├── README.md    # You read it right now
 └── main.cpp     # C++ source code
 ```
-Almost all this README was created using **cat**
+Almost all this README was created using **bcat**
