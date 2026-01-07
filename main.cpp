@@ -27,7 +27,7 @@ auto read_file(const fs::path& path) -> std::expected<void, std::string> {
 }
 
 auto write_file(const fs::path& path) -> std::expected<void, std::string> {
-    std::ofstream file(path, std::ios::app);
+    std::ofstream file(path);
     if (!file) {
         return std::unexpected("Failed to open file: " + path.string());
     }
